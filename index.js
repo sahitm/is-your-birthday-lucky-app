@@ -34,8 +34,10 @@ function checkLucky(){
     console.log(sum_digits_from_string(dateOfBirth.value))
     console.log(dateOfBirth.value.length)
     console.log(luckyNumber.value.length)
+    console.log(sum_digits_from_string(dateOfBirth.value)%parseInt(luckyNumber.value) === 0)
+  
     if(dateOfBirth.value.length > 9 && luckyNumber.value.length > 0){
-        if(sum_digits_from_string(dateOfBirth.value) === parseInt(luckyNumber.value)){
+        if(sum_digits_from_string(dateOfBirth.value)%parseInt(luckyNumber.value) === 0){
             displayMessage('Your Birthday is Lucky')
         }else{
             displayMessage('Your Birthday is Not Lucky')
