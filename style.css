@@ -44,3 +44,22 @@ input{
 	position:relative;
 	top:1px;
 }
+
+.social-links{
+	display: flex;
+	justify-content: space-between;
+	width: 40vw;
+	margin: 2rem auto;
+
+}
+
+li{
+	list-style: none;
+}
+
+a { color: inherit; } 
+
+.disclaimer{
+   color: blueviolet;
+  text-align: center;
+}
