@@ -2,7 +2,7 @@
 
 # Description
 
-Ais your birthday lucky app built using HTML, CSS & VanillaJS
+A is your birthday lucky app built using HTML, CSS & VanillaJS
 
 
 ## Demo
