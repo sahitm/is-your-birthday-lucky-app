@@ -7,7 +7,7 @@ Ais your birthday lucky app built using HTML, CSS & VanillaJS
 
 ## Demo
 
-[Live view]() of the project.
+[Live view](https://is-your-birthday-lucky-app-1.sahitm1.repl.co) of the project.
 
 
 
