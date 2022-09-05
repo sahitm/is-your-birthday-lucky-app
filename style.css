@@ -1,23 +1,35 @@
+*{
+	margin: 0%;
+	padding: 0%;
+	color: #ffffff;
+}
+
+:root{
+	--footer : rgb(54, 123, 123);
+	--primary-color : rgb(29, 84, 84);
+}
+
 body{
     display: flex;
     flex-direction: column;
     width: 70vw;
     margin: auto;
     align-items: center;
-    background-color: aquamarine;
+    background-color: var(--primary-color);
 }
 
 body > *{
-    margin: 1rem;
+    margin-top: 1rem;
 }
 
 input{
     padding: 1rem;
     width: 15rem;
+	color: rgb(34, 6, 59);
 }
 
 .message{
-    color: blue;
+    color: rgb(149, 255, 0);
 }
 
 #checkNumber {
@@ -53,13 +65,87 @@ input{
 
 }
 
-li{
+
+/**links **/
+.link {
+	text-decoration: none;
+	padding: 0.5rem 1rem;
+}
+  
+.link-primary {
+	background-color: var(--footer);
+	border-radius: 0.5rem;
+	color: white;
+}
+  
+.link-secondary {
+	color: var(--footer);
+	border-radius: 0.5rem;
+	border: 1px solid var(--footer);
+}
+  /**lists **/
+.list-non-bullet {
 	list-style: none;
 }
+  
+.list-item-inline {
+	display: inline;
+	padding: 0rem 0.5rem;
+}
+  
+  /**nav **/
+  
+.navigation {
+	background-color: var(--footer);
+	color: white;
+	padding: 1rem;
+	border-bottom-left-radius: 1rem;
+}
+  
+.navigation .nav-brand {
+	font-size: 1.5rem;
+}
+  
+.navigation .nav-pills {
+	text-align: right;
+}
+  
+.navigation .link {
+	color: white;
+}
+  
+.navigation .link-active {
+	font-size: 1.5rem;
+}
+  
+  /* footer */
+  
+.footer {
+	background-color: var(--footer);
+	padding: 2rem 1rem;
+	text-align: center;
+	color: white;
+	border-top-right-radius: 1rem;
+	width: 100vw;
+	margin-top: 12vh;
+}
 
-a { color: inherit; } 
+.footer .link {
+	color: white;
+}
+
+.footer .footer-header {
+	font-weight: bold;
+	font-size: large;
+}
+
+.footer ul {
+	padding-inline-start: 0px;
+}
 
 .disclaimer{
-   color: blueviolet;
+  color: rgb(149, 255, 0);
   text-align: center;
+  font-weight: bolder;
+  font-size: 1.5rem;
 }
